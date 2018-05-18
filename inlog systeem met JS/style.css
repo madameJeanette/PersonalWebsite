@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background-color:indigo;
+    max-width: 360px;
+    margin: 0, auto, 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    background-color:lavender !important;
+    width:202px;
+    height:48px;
+    margin:0 0 14px;
+    padding:15px;
+    font-size:15px;
+}
+
+#submit{
+    font-family: "Roboto", sans-serif;
+    background-color:lightseagreen !important;;
+    text-transform: uppercase;
+    outline: 0;
+    width:202px;
+    height:48px;
+    border:0;
+    font-size:14px;
+    cursor:pointer;
+    color:#FFFFFF;
+    padding:15px;
+   
+  
+}
+
+.form button:hover,.form button:active{
+    background: rgb(43, 133, 136);
+}
+
+.message {
+    color:rgb(230, 247, 253);
+    margin:10px 0 0;
+    font-family: "Roboto", sans-serif;
+  
+}
+.message a{
+color:rgb(165, 227, 250);
+font-family: "Roboto", sans-serif;
+}
+.form .registration-form{
+    display:none;
+}
