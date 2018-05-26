@@ -7,15 +7,8 @@
      <div class="login-page">   
        
        <div class="form">
-        <form class = "registration-form">    
-        <input type="text" placeholder="username">  
-          <input type="text" placeholder="password">
-          <input type="text" placeholder="email">
-          <input type ="button" value="Registreer" id="submit" onclick="validate()"/>
-       <p class="message">Al geregistreerd?<br><a href="#">Login</a></p>
-        </form> 
-
-        <form class="login-form" id="form_id" method="post" name="myform">
+      
+           <form class="login-form" id="form_id" method="post" name="myform">
             <input type="text" placeholder="username" name="username" id="username">
             <input type="password" placeholder="password" name="password" id="password">
             <input type ="button" value="Login" id="submit" onclick="validate()"/>
@@ -27,12 +20,5 @@
        </div>
        </div> 
        <script src="main.js"></script>
-       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      
-<script>
-        $(".message a").click(function(){
-        $("form").animate({height:"toggle", opacity:"toggle"}, "slow");});
-    
-    </script>
     </body>
 </html>
